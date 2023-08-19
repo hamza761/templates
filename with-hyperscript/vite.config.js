@@ -2,13 +2,11 @@ import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
 import options from './src/options.json'
 import config from "vite-plugin-testing"
-import vueJsx from '@vitejs/plugin-vue-jsx'
 import path from 'path'
 export default defineConfig((props) => {
   return {
     plugins: [
       config(options, props.command),
-      vueJsx(),
     ],
     build: {
       lib: {

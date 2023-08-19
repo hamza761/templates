@@ -1,10 +1,11 @@
-<script lang="jsx">
+<script>
+import { h } from 'vue'
 import { Typography } from 'testing-extension-ui';
 
 export default {
   setup() {
     return () => {
-      return <><Typography>Testing Components is here</Typography></>
+      return h(Typography, null, 'Testing Components is here')
     }
   }
 }
