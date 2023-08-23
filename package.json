@@ -6,11 +6,11 @@
     "dev": "vite"
   },
   "dependencies": {
-    "testing-extension-ui": "^0.0.2",
+    "testing-extension-ui": "^0.0.3",
     "vue": "^3.3.4"
   },
   "devDependencies": {
-    "vite-plugin-testing": "^2.1.11",
+    "vite-plugin-testing": "^2.1.14",
     "@vitejs/plugin-vue-jsx": "^3.0.1",
     "vite": "^4.3.9"
   }
