@@ -8,11 +8,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "testing-extension-ui": "^0.0.2",
+    "testing-extension-ui": "^0.0.3",
     "vue": "^3.3.4"
   },
   "devDependencies": {
     "vite": "^4.3.9",
-    "vite-plugin-testing": "^2.1.11"
+    "vite-plugin-testing": "^2.1.14"
   }
 }
