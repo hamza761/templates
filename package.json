@@ -6,7 +6,7 @@
     "dev": "vite"
   },
   "dependencies": {
-    "testing-extension-ui": "^0.0.4",
+    "testing-extension-ui": "^0.0.5",
     "vue": "^3.3.4"
   },
   "devDependencies": {
